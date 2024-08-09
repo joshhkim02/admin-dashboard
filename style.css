@@ -26,22 +26,59 @@
     isolation: isolate;
   }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .container {
+    height: 100vh;
+    gap: 15px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    grid-template-columns: minmax(300px, .2fr) 1fr;
     grid-template-areas:
     'sidebar header'
-    'sidebar main'
+    'sidebar main';
 }
 
 .header {
+    border: 1px solid black;
     grid-area: header;
 }
 
 .sidebar {
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: minmax(100px, .20fr) minmax(450px, .5fr) minmax(200px, .5fr) 1fr;
     grid-area: sidebar;
+    gap: 20px;
+    padding-left: 20px;
 }
 
 .main {
+    border: 1px solid black;
     grid-area: main;
+}
+
+.sidebar>div {
+    /* border: 1px solid black; */
+}
+
+.side-icon {
+    width:30px;
+    height: auto;
+}
+
+.side-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid black; */
+}
+
+.side-section-1,
+.side-section-2,
+.side-section-3 {
+    display: grid;
 }
