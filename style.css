@@ -127,6 +127,20 @@ a {
     padding-right: 20px;
 }
 
+.button-container {
+    display: grid;
+    grid-template-columns: minmax(125px, .25fr) minmax(125px, .25fr) minmax(125px, .25fr);
+    align-items: center;
+    padding-left: 250px;
+    gap: 40px;
+}
+
+.header-btn {
+    width: 125px;
+    height: 50px;
+    border-radius: 30px;
+}
+
 /* END - Header styling */
 
 .main {
