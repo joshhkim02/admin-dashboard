@@ -100,7 +100,7 @@ a {
 
 .welcome-container {
     display: grid;
-    grid-template-columns: minmax(100px, .5fr) minmax(200px, .5fr);
+    grid-template-columns: minmax(100px, .2fr) minmax(200px, 1fr);
     grid-template-rows: minmax(50px, .5fr) minmax(50px, .5fr);
 }
 
@@ -114,16 +114,17 @@ a {
     grid-row: 2 / 3;  
 }
 
-.welcome-container > * {
-    /* border: 1px solid black; */
-}
+/* .welcome-container > * {
+    border: 1px solid black;
+} */
 
 .welcome-container .side-icon {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     height: 100px;
     width: 100px;
-    justify-self: center;
+    justify-self: right;
+    padding-right: 20px;
 }
 
 /* END - Header styling */
