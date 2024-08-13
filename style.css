@@ -139,6 +139,47 @@ a {
 .main {
     border: 1px solid black;
     grid-area: main;
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr) minmax(250px, .75fr);
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column: 1 / 3;
+    padding: 20px;
+}
+
+.project-title {
+    grid-column: 1 / 3;
+}
+
+.card {
+    width: 500px;
+    height: 225px;
+    border: 1px solid black;
+}
+
+.card-icon {
+    width: 30px;
+    height: auto;
+}
+
+.sub-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, .5fr));
+    grid-column: 3 / 4;
+    padding: 20px;
+}
+
+.main-title {
+    grid-column: 1 / 2;
+}
+
+.card-small {
+    width: 400px;
+    height: 325px;
+    border: 1px solid black;
 }
 
 /* END - Main styling */
