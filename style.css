@@ -78,11 +78,11 @@ a {
 /* START - Header styling */
 
 .header {
-    border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-area: header;
+    box-shadow: 0px 5px 5px rgb(201, 201, 201);
 }
 
 .search-container {
@@ -98,7 +98,7 @@ a {
     padding: 10px;
     border-radius: 15px;
     border: none;
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(230, 230, 230);
 }
 
 .user-container {
@@ -107,30 +107,45 @@ a {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    gap: 20px;
+    gap: 30px;
     padding-left: 200px;
+    padding-top: 20px;
+}
+
+.user-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.username {
+    font-family: roboto-med;
+    font-size: 20px;
 }
 
 .user-container .side-icon {
     justify-self: right;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .welcome-container {
     display: grid;
     grid-template-columns: minmax(100px, .2fr) minmax(200px, 1fr);
-    grid-template-rows: minmax(50px, .5fr) minmax(50px, .5fr);
+    grid-template-rows: minmax(50px, .5fr) minmax(70px, 75fr);
     margin-left: 25px;
-    padding: 10px;
 }
 
 .welcome-msg-1 {
     align-content: end;
+    font-family: roboto-med;
+    font-size: 15px;
     padding-right:300px;
+    padding-bottom: 5px;
 }
 
 .welcome-msg-2 {
+    font-size: 30px;
+    font-family: roboto-bold;
     grid-column: 2 / 3;
     grid-row: 2 / 3;  
 }
@@ -147,16 +162,23 @@ a {
 
 .button-container {
     display: grid;
-    grid-template-columns: minmax(125px, .25fr) minmax(125px, .25fr) minmax(125px, .25fr);
-    align-items: center;
-    padding-left: 250px;
-    gap: 40px;
+    grid-template-columns: minmax(100px, .25fr) minmax(100px, .25fr) minmax(100px, .25fr);
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 200px;
+    gap: 20px;
 }
 
 .header-btn {
     width: 125px;
     height: 50px;
     border-radius: 30px;
+    background-color: #34d399;
+    border: none;
+    font-family: roboto-med;
+}
+.header-btn:hover {
+    cursor: pointer;
 }
 
 /* END - Header styling */
@@ -164,7 +186,6 @@ a {
 /* START - Main styling */
 
 .main {
-    border: 1px solid black;
     grid-area: main;
     display: grid;
     grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr) minmax(250px, .75fr);
