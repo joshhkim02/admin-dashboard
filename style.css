@@ -207,6 +207,7 @@ a {
 
 .project-title {
     grid-column: 1 / 3;
+
 }
 
 .card {
@@ -257,13 +258,54 @@ a {
     font-family: roboto-bold;
 }
 
+.announcement-container {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(3, minmax(70px, 1fr));
+}
+
+.announcement {
+    box-shadow: 0px 1px 0px 0px rgb(201, 201, 201);
+}
+
+.announcement-container div:last-child {
+    box-shadow: none;
+}
+
 .card-small {
     width: 375px;
     height: 285px;
     border: none;
     background-color: white;
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
+}
+
+.sub-title {
+    font-family: roboto-bold;
+    font-size: 1rem;
+}
+
+.sub-card-text,
+.user-status{
+    font-size: .9rem;
+    font-family: roboto-thin; 
+    font-weight: 600;
+}
+
+.trending-container {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.trending-item {
+    display: flex;
+    gap: 15px;
+}
+
+.user-handle {
+    font-family: roboto-med;
 }
 
 /* END - Main styling */
