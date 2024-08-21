@@ -34,22 +34,22 @@ a {
 }
 
 @font-face {
-    font-family: roboto-reg;
+    font-family: roboto-reg, Arial, Helvetica, sans-serif;
     src: url(/fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
-    font-family: roboto-med;
+    font-family: roboto-med, Arial, Helvetica, sans-serif;
     src: url(/fonts/Roboto-Medium.ttf);
 }
 
 @font-face {
-    font-family: roboto-bold;
+    font-family: roboto-bold, Arial, Helvetica, sans-serif;
     src: url(/fonts/Roboto-bold.ttf);
 }
 
 @font-face {
-    font-family: roboto-thin;
+    font-family: roboto-thin, Arial, Helvetica, sans-serif;
     src: url(/fonts/Roboto-Thin.ttf);
 }
 
