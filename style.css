@@ -12,7 +12,6 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    font-family: Arial, Helvetica, sans-serif;
   }
   img, picture, video, canvas, svg {
     display: block;
@@ -34,22 +33,22 @@ a {
 }
 
 @font-face {
-    font-family: roboto-reg, Arial, Helvetica, sans-serif;
+    font-family: roboto-reg;
     src: url(/fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
-    font-family: roboto-med, Arial, Helvetica, sans-serif;
+    font-family: roboto-med;
     src: url(/fonts/Roboto-Medium.ttf);
 }
 
 @font-face {
-    font-family: roboto-bold, Arial, Helvetica, sans-serif;
+    font-family: roboto-bold;
     src: url(/fonts/Roboto-bold.ttf);
 }
 
 @font-face {
-    font-family: roboto-thin, Arial, Helvetica, sans-serif;
+    font-family: roboto-thin;
     src: url(/fonts/Roboto-Thin.ttf);
 }
 
@@ -75,7 +74,7 @@ a {
 
 .project-title,
 .main-title {
-    font-family: roboto-bold;
+    font-family: roboto-bold, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5rem;
 }
 
@@ -124,7 +123,7 @@ a {
 }
 
 .username {
-    font-family: roboto-med;
+    font-family: roboto-med, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.4rem;
 }
 
@@ -143,7 +142,7 @@ a {
 
 .welcome-msg-1 {
     align-content: end;
-    font-family: roboto-med;
+    font-family: roboto-med, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1rem;
     padding-right:300px;
     padding-bottom: 5px;
@@ -151,7 +150,7 @@ a {
 
 .welcome-msg-2 {
     font-size: 2rem;
-    font-family: roboto-bold;
+    font-family: roboto-bold, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     grid-column: 2 / 3;
 }
 
@@ -179,7 +178,7 @@ a {
     border-radius: 30px;
     background-color: #34d399;
     border: none;
-    font-family: roboto-bold;
+    font-family: roboto-bold, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2rem;
 }
 .header-btn:hover {
@@ -224,12 +223,12 @@ a {
 }
 
 .title {
-    font-family: roboto-bold;
+    font-family: roboto-bold, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.3rem;
 }
 
 .card-text {
-    font-family: roboto-thin;
+    font-family: roboto-thin, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
     font-size: 1rem;
 }
@@ -255,7 +254,7 @@ a {
 
 .main-title {
     grid-column: 1 / 2;
-    font-family: roboto-bold;
+    font-family: roboto-bold, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .announcement-container {
@@ -283,14 +282,14 @@ a {
 }
 
 .sub-title {
-    font-family: roboto-bold;
+    font-family: roboto-bold, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1rem;
 }
 
 .sub-card-text,
 .user-status{
     font-size: .9rem;
-    font-family: roboto-thin; 
+    font-family: roboto-thin, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     font-weight: 600;
 }
 
@@ -306,7 +305,7 @@ a {
 }
 
 .user-handle {
-    font-family: roboto-med;
+    font-family: roboto-med, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* END - Main styling */
@@ -320,11 +319,11 @@ a {
     gap: 20px;
     padding-left: 20px;
     background-color: #d1fae5;
-    font-family: roboto-med;
+    font-family: roboto-med, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .side-content.dashboard {
-    font-family: roboto-bold;
+    font-family: roboto-bold, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .side-section-1 > .side-content >.side-icon {
